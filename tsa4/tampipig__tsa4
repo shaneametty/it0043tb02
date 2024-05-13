@@ -4,28 +4,29 @@
 <head>
     <meta charset="UTF-8" />
     <title>Tampipig_TSA4</title>
+    <link rel="stylesheet" type="text/css" href="tampipig_tsa4.css">
 </head>
 
-<body>
-        
-                <h1> ADVISORY </h1>
-           
-                <h2> Online Synchronous Classes on April 24, 2024 </h2>
-    
-                <p> Following the announcement of Manila City Mayor Dr. Honey Lacuna-Pangan, FEU Tech will be
-                holding online synchronous classes tomorrow, April 24, 2024,
-               as a precautionary measure to the forecasted 
-                danger heat index level of 43°C. 
-                </p>
-     
-                <p> Please check your Canvas account for updates and further instructions. </p>
-       
+<body align = "center">
 
-                    <p> Stay safe and hydrated, Tamaraws. </p>
-    
-            <p> &nbsp &nbsp Driven By Innovation &nbsp &nbsp </p>
-            
-                <p>#TheSchoolOfInnovation</p>
+    <h1> ADVISORY </h1>
+
+    <h2> Online Synchronous Classes on April 24, 2024 </h2>
+
+    <p> Following the announcement of Manila City Mayor Dr. Honey Lacuna-Pangan, FEU Tech will be
+        holding online synchronous classes tomorrow, April 24, 2024,
+        as a precautionary measure to the forecasted
+        danger heat index level of 43°C.
+    </p>
+
+    <p> Please check your Canvas account for updates and further instructions. </p>
+
+
+    <p> Stay safe and hydrated, Tamaraws. </p>
+
+    <p> &nbsp &nbsp Driven By Innovation &nbsp &nbsp </p>
+
+    <p>#TheSchoolOfInnovation</p>
 
 
 
