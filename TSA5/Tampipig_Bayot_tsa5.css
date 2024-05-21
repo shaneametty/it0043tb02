@@ -1,9 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container{
+
+.header {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+
+.container {
     background-color: bisque;
     width: 90vw;
     padding: 50px;
@@ -22,20 +29,20 @@ button {
     width: auto;
     height: auto;
     border-radius: 50em;
-    font-size: 13px;
+    font-size: 10px;
     border: none;
     position: relative;
     overflow: hidden;
     z-index: 1;
     box-shadow: 6px 6px 12px #f1d3ff,
-                -6px -6px 12px #f1d3ff;
+        -6px -6px 12px #f1d3ff;
 
-   }
-   
-   button::before {
+}
+
+button::before {
     content: '';
     width: 0;
-    height: 3em;    
+    height: 3em;
     border-radius: 30em;
     position: absolute;
     top: 0;
@@ -43,57 +50,66 @@ button {
     background-image: linear-gradient(to right, #ffd3d3 0%, rgb(255, 0, 0) 100%);
     display: block;
     z-index: -1;
-   }
-   
-   button:hover::before {
-    width: 9em;
-   }
+}
 
-   .card{
+button:hover::before {
+    width: 9em;
+}
+
+.card {
     border: 2px black solid;
-    width:22% ;
+    width: 22%;
     /* height: 600px; */
     padding: 40px;
     margin: 0 20px;
-    margin-left: 60px;
-    margin-right: 100px;
-    display:inline-block;
-    box-shadow: 15px 15px 10px rgb(61, 59, 59);
+    margin-left: 30px;
+    margin-right: 60px;
+    display: inline-block;
+    /* box-shadow: 0 20px 30px rgba(0, 0, 0, 0.982); */
     border-radius: 15px 50px;
     background-image: url(https://cdn.pixabay.com/photo/2016/07/23/13/21/pokemon-1536855_640.png);
-    background-size: 350px;
+    background-size: 280px;
     background-repeat: no-repeat;
     background-color: rgb(255, 204, 204);
-
-
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px,
+        rgb(31, 193, 27) 0px 0px 0px 6px,
+        rgb(255, 217, 19) 0px 0px 0px 9px,
+        rgb(255, 156, 85) 0px 0px 0px 12px,
+        rgb(255, 85, 85) 0px 0px 0px 15px;
 }
 
-
-img{
+img {
     width: 15vw;
     height: 10vw;
 
 }
 
-h1{
+
+h2 {
     font-stretch: expanded;
-    padding-top: 40px;
-    font-size: 3.5rem;
-    text-align: center;
-    font-weight: 900;
-    text-shadow: 2px 2px rgb(218, 138, 255);
+    padding-top: 20px;
+    font-size: 50px font-weight: 900;
+    display: grid;
+    place-items: center;
+    grid-template-areas: "text";
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-image: linear-gradient(305deg, tomato, gold, cyan);
+    margin: 0;
+
 }
 
-.type{
+.type {
     padding-top: 30px;
     padding-left: 5px;
     font-size: 25px;
     text-align: left;
     font-weight: 900;
-    
+
 }
 
-.poison{
+.poison {
     text-align: center;
     font-size: 20px;
     width: auto;
@@ -101,27 +117,27 @@ h1{
     border-radius: 30em;
     background-color: rgb(171, 108, 230);
     box-shadow: 6px 6px 12px #f1d3ff,
-                -6px -6px 12px #f1d3ff;
+        -6px -6px 12px #f1d3ff;
     margin: 18px;
-                
-    
+
+
 }
 
-.ekansdesc{
+desc {
     font-size: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 700px;
 }
 
 
 
 
-img{
+img {
     width: 15vw;
     height: 10vw;
 
 }
 
-h1{
+h1 {
     font-stretch: expanded;
     padding-top: 40px;
     font-size: 3.5rem;
@@ -130,16 +146,16 @@ h1{
     text-shadow: 2px 2px rgb(255, 0, 0);
 }
 
-.type{
+.type {
     padding-top: 30px;
     padding-left: 5px;
     font-size: 25px;
-    text-align:left;
+    text-align: left;
     font-weight: 900;
-    
+
 }
 
-.electric{
+.electric {
     text-align: center;
     font-size: 20px;
     width: auto;
@@ -147,25 +163,21 @@ h1{
     border-radius: 30em;
     background-color: rgb(235, 172, 14);
     box-shadow: 6px 6px 12px #d6ccaf,
-                -6px -6px 12px #d6ccaf;
+        -6px -6px 12px #d6ccaf;
     margin: 18px;
-                
-    
-}
 
-.pikadesc{
-    font-size: 17px;
-    margin-bottom: 20px;
+
 }
 
 
-img{
+
+img {
     width: 15vw;
     height: 10vw;
 
 }
 
-h1{
+h1 {
     font-stretch: expanded;
     padding-top: 40px;
     font-size: 3.5rem;
@@ -174,16 +186,16 @@ h1{
     text-shadow: 2px 2px rgb(255, 0, 0);
 }
 
-.type{
+.type {
     padding-top: 30px;
     padding-left: 5px;
     font-size: 25px;
-    text-align:left;
+    text-align: left;
     font-weight: 900;
-    
+
 }
 
-.fighting{
+.fighting {
     text-align: center;
     font-size: 20px;
     width: auto;
@@ -191,13 +203,8 @@ h1{
     border-radius: 30em;
     background-color: rgb(224, 151, 90);
     box-shadow: 6px 6px 12px #daa790,
-                -6px -6px 12px #daa790;
+        -6px -6px 12px #daa790;
     margin: 18px;
-                
-    
-}
 
-.mandesc{
-    font-size: 17px;
-    margin-bottom: 20px;
+
 }
