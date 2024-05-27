@@ -44,73 +44,144 @@
     background-color: rgb(165, 122, 3);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
-    
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box1:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box2 {
     background-color: rgb(250, 230, 47);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
     }
-    
+
+    #box2:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
+    }
+
     #box3 {
     background-color: rgb(238, 131, 31);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box3:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box4 {
     background-color: rgb(116, 33, 22);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box4:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box5 {
     background-color: rgb(240, 76, 204);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box5:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box6 {
     background-color: rgb(255, 240, 198);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box6:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box7 {
     background-color: rgb(240, 196, 76);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box7:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box8 {
     background-color: rgb(119, 26, 182);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box8:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box9 {
     background-color: rgb(26, 89, 206);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box9:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box10 {
     background-color: rgb(54, 185, 185);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box10:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     #box11 {
     background-color: rgb(176, 42, 202);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
     }
-    
+
+    #box11:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
+    }
+
     #box12 {
     background-color: rgb(48, 24, 134);
     box-shadow: 3px 3px 5px rgb(44, 40, 40);
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #box12:hover {
+      background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background_23-2148882944.jpg);
     }
     
     
