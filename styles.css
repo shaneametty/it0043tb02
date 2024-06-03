@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont {
+    width: 90vw;
+    /* border: 5px solid black; */
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    padding: 30px;
+    gap: 20px;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    /* height: auto;
+    width: 30vw; */
+    /* border: 5px solid rgb(0, 0, 0); */
+    /* box-shadow: 5px 5px 15px rgb(59, 8, 8); */
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: #fff;
+  
+  padding: 40px;
+  box-shadow:
+	inset #1f0000 0 0 0 5px, 
+    inset #000000 0 0 0 1px, 
+    inset #343434 0 0 0 10px, 
+    inset #5b5b5b 0 0 0 11px, 
+    inset #6c6c6c 0 0 0 16px, 
+    inset #a6a6a6 0 0 0 17px, 
+    inset #e5f9f7 0 0 0 21px, 
+    inset #bfecf7 0 0 0 22px;
+    
+  
+}
+
+img{
+    width: 180px;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 5px 5px 15px rgb(51, 49, 49);
+    background: -webkit-linear-gradient(#ffffff, #bf8300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.species {
+    font-size: 1.3rem;
+    font-style: italic;
+    padding: 15px;
+}
+
+.desc {
+    text-align:justify;
+    line-height: 1.5;
+}
+
+#sebastian{
+    background-color: rgb(49, 1, 1);
+    color: rgb(255, 239, 239);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#ciel{
+    background-color: rgb(4, 6, 112);
+    color: rgb(255, 239, 239);
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#under{
+    background-color: rgb(47, 48, 51);
+    color: rgb(255, 239, 239);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+}
+
+#lau{
+    background-color: rgb(14, 88, 94);
+    color: rgb(255, 239, 239);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+#grelle{
+    background-color: rgb(153, 34, 34);
+    color: rgb(255, 239, 239);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+@media  (max-width: 800px) {
+    .cont{
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: none;
+    }
+
+    #sebastian{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    #ciel{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }   
+
+    #under{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    #lau{
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    #grelle{
+        grid-row: 5/6   ;
+        grid-column: 1/2;
+        
+    }
+
+}
+    
