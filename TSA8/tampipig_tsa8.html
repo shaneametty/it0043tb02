@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampipig_TSA8</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="cont">
+        <div class="cntrls">
+            <h3>Gap</h3>
+            <label for="gap"></label>
+            <input type="number" id="gap" value="0" min="0">
+
+            <h3>Flex Direction</h3>
+            <button id="row">Row</button>
+            <button id="column">Column</button>
+
+            <h3>Justify Content</h3>
+            <button id="justify-start">Start</button>
+            <button id="justify-center">Center</button>
+            <button id="justify-end">End</button>
+            <button id="justify-space-between">Space Between</button>
+            <button id="justify-space-around">Space Around</button>
+            <button id="justify-space-evenly">Space Evenly</button>
+
+            <h3>Align Items</h3>
+            <button id="align-start">Start</button>
+            <button id="align-center">Center</button>
+            <button id="align-end">End</button>
+
+            <h3>Flex Grow</h3>
+            <button id="reset-grow">Reset</button>
+            <button id="grow-all">Grow All</button>
+            <div class="cntrl-grp">
+                <label for="box1-grow">Box 1</label>
+                <input type="number" id="box1-grow" value="0" min="0">
+            </div>
+            <div class="cntrl-grp">
+                <label for="box2-grow">Box 2</label>
+                <input type="number" id="box2-grow" value="0" min="0">
+            </div>
+            <div class="cntrl-grp">
+                <label for="box3-grow">Box 3</label>
+                <input type="number" id="box3-grow" value="0" min="0">
+            </div>
+            <button id="reset">Reset Flexbox</button>
+        </div>
+
+
+        <div class="flex-cont" id="flex-cont">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
