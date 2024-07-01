@@ -1,0 +1,126 @@
+.cont {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cntrls {
+    flex-basis: 300px;
+    padding: 20px;
+    background-color: #ffe4f0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cntrls h3 {
+    font-family: "Playwrite DE Grund", sans-serif;
+    font-size: 14px;
+    color: #016453;
+    margin-bottom: 10px;
+}
+
+.cntrls .cntrl-grp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.cntrls .cntrl-grp label {
+    font-family: "Playwrite DE Grund", sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.cntrls .cntrl-grp input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    font-family: "Playwrite DE Grund", sans-serif;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.cntrls button {
+    background-color: #c2fbd7;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+        rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+        rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    font-family: "Playwrite DE Grund", sans-serif;
+    font-size: 12px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.cntrls button:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.cntrls button:hover {
+    background-color: #a1f1bf;
+    box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+        rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+        rgba(44, 187, 99, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.cntrls input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    font-family: "Playwrite DE Grund", sans-serif;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.flex-cont {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    background-color: #ffe4f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(187, 44, 108, 0.2) 0 -25px 18px -14px inset,
+        rgba(187, 44, 113, 0.15) 0 1px 2px, rgba(187, 44, 123, 0.15) 0 2px 4px,
+        rgba(187, 44, 106, 0.15) 0 4px 8px, rgba(187, 44, 106, 0.15) 0 8px 16px,
+        rgba(187, 44, 120, 0.15) 0 16px 32px;
+    color: rgb(128, 0, 87);
+
+}
+
+.box:hover {
+    background-color: #ffc6e0;
+}
