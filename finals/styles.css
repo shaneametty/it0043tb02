@@ -868,7 +868,7 @@ section {
 
 /* across all screens */
 #home {
-    background: url('/finals/home bg.png') no-repeat center center/cover;
+    background: url('/home bg.png') no-repeat center center/cover;
     color: rgb(0, 0, 0);
     padding: 5em 0;
     height: 40vw;
